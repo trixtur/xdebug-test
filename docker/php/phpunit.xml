@@ -1,0 +1,10 @@
+<phpunit bootstrap="bootstrap.php">
+    <php>
+        <includePath>.</includePath>
+    </php>
+    <testsuites>
+        <testsuite name="fizzbuzz">
+            <directory suffix="test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
